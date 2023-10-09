@@ -1,0 +1,242 @@
+/* Estilos previos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50; /* Verde */
+    color: #333; /* Color de texto principal */
+}
+
+header {
+    text-align: center;
+    background-color: #4CAF50; /* Verde */
+    color: #fff; /* Color de texto del título */
+    padding: 20px;
+}
+
+header .header-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header .header-subtitle {
+    font-size: 24px;
+}
+
+/* Estilos de navegación */
+nav {
+    background-color: #2e764a;
+    padding: 10px 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #fff; /* Color de texto del título */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff; /* Cambia a blanco al pasar el mouse */
+}
+
+/* Estilos de videos */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Borde redondeado */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Estilos de secciones */
+.section {
+    padding: 30px;
+    background-color: #fff; /* Fondo blanco para secciones */
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #133c5a;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #133c5a;
+}
+
+/* Estilos de botones */
+.button {
+    background-color: #133c5a;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #2e764a; /* Cambia a verde más oscuro al pasar el mouse */
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #133c5a; /* Color de fondo del pie de página */
+    color: #fff; /* Color de texto del pie de página */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para la sección "Nuestras Soluciones" */
+#soluciones {
+    background-color: #6DBE45; /* Color verde que representa el campo */
+    color: #fff; /* Texto en color blanco */
+    padding: 40px;
+    text-align: center;
+}
+
+#soluciones .section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#soluciones .section-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#soluciones .button {
+    background-color: #147ed9; /* Color azul que representa el agua */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#soluciones .button:hover {
+    background-color: #0b59b6; /* Color azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para la sección "Blogs y Artículos" */
+#blogs {
+    background-color: #6DBE45; /* Color verde que representa el campo */
+    color: #000; /* Texto en color blanco */
+    padding: 40px;
+    text-align: center;
+}
+
+#blogs .section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#blogs .section-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#blogs .button {
+    background-color: #147ed9; /* Color azul que representa el agua */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#blogs .button:hover {
+    background-color: #0b59b6; /* Color azul más oscuro al pasar el mouse */
+}
+
+/* Estilos para la descripción de los videos */
+.video-description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+.btn {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff1a1a;
+}
